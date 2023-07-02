@@ -24,7 +24,7 @@ function letterCombinations(input_digit) {
 		for(let i=0;i< table[currentChar].length;i++){
 			solve(currentIndex +1, calculatedString + table[currentChar][i]);
 		}
-	}
+	
 	solve(0, "");
  
 	return(solution);
